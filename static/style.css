@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#navbar{
+    background-color: aqua;
+    padding: 13px 4px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a:hover{
+    color: red;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 11px;
+}
+#introSection div.small{
+    font-size: 30px;
+    border-radius: 5px;
+}
+#introSection{
+    background: center / cover no-repeat url("/static/rupesh35.jpg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:  34px;
+    font-weight: bold;
+    color:white;
+    height: 300px;
+    background-color: red;
+
+}
+#sponserSection{
+    background: center / cover no-repeat url("/static/rupesh12.jpg.jpg");
+    display: flex;
+    justify-content: center;
+    border-radius: 9px;
+    align-items: center;
+    height: 300px;
+    background-color: yellow;
+    color:white;
+    font-size: 23px;
+
+}
+
+#footer{
+    background: center / cover no-repeat url("/static/rupesh33.jpg.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column-reverse;
+    height: 300px;
+    background-color: aquamarine;
+    color :red;
+    font-size: 23px;
+
+}
